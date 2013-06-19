@@ -456,7 +456,7 @@ Enemy.prototype.constructor = Enemy;
 
 ## Comments
 
-Use `//` for single line comments, and always put a newline before then.
+Use `//` for single line comments, and always put a newline above them.
 
 ```javascript
 // Bad
