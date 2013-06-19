@@ -481,3 +481,62 @@ function walk(distance) {
   ...
 }
 ```
+
+## Leading commas
+
+Please don't.
+
+```javascript
+// Bad
+var user = new User
+  , admin = new Admin;
+
+// Good
+var user = new User,
+    admin = new Admin;
+```
+
+## Semicolons
+
+Always...
+
+```javascript
+var user = new User;
+
+var object {
+  name: "Sasha",
+  age: 23
+};
+
+if (true) console.log("Yeah!");
+```
+
+...except after a multiline function declaration, if, while or for blocks.
+
+```javascript
+// Bad
+var func = function() {
+  ...
+};
+
+if (true) {
+  ...
+};
+
+while (true) {
+};
+
+// Good
+
+var func = function() {
+  ...
+}
+
+if (true) {
+  ...
+}
+
+while (true) {
+  ...
+}
+```
