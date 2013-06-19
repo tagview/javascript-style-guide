@@ -306,6 +306,49 @@ var obj = {
 };
 ```
 
+Put a whitespace after the key.
+
+```javascript
+// Bad
+var obj = {
+  name:"Sasha",
+  rating:10
+}
+
+// Good
+var obj = {
+  name: "Sasha",
+  rating: 10
+}
+```
+
+Put each key-value pair on its own line.
+
+```javascript
+// Bad
+var obj = {
+  name: "Sasha", age: 23,
+  rating: 10
+}
+
+// Good
+var obj = {
+  name: "Sasha", 
+  age: 23,
+  rating: 10
+}
+```
+
+Inline objects are allowed, but put a whitespace between the braces.
+
+```javascript
+// Bad
+var obj = {name: "Sasha"};
+
+// Good
+var obj = { name: "Sasha" };
+```
+
 ## Functions
 
 Don't use `arguments` as a parameter, as it will override its value inside the function.
