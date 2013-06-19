@@ -267,7 +267,7 @@ Always use array literals.
 var names = new Array;
 
 // Good
-var names = []
+var names = [];
 ```
 
 When you need to transform an array-like object into an array, use Array#slice.
@@ -313,13 +313,13 @@ Put a whitespace after the key.
 var obj = {
   name:"Sasha",
   rating:10
-}
+};
 
 // Good
 var obj = {
   name: "Sasha",
   rating: 10
-}
+};
 ```
 
 Put each key-value pair on its own line.
@@ -329,14 +329,14 @@ Put each key-value pair on its own line.
 var obj = {
   name: "Sasha", age: 23,
   rating: 10
-}
+};
 
 // Good
 var obj = {
   name: "Sasha", 
   age: 23,
   rating: 10
-}
+};
 ```
 
 Inline objects are allowed, but put a whitespace between the braces.
@@ -503,7 +503,7 @@ Always...
 ```javascript
 var user = new User;
 
-var object {
+var obj = {
   name: "Sasha",
   age: 23
 };
@@ -524,10 +524,10 @@ if (true) {
 };
 
 while (true) {
+  ...
 };
 
 // Good
-
 var func = function() {
   ...
 }
