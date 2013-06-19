@@ -397,11 +397,11 @@ Car.prototype = {
 // Good
 Car.prototype.move = function() {
   ...
-};
+}
 
 Car.prototype.stop = function() {
   ...
-};
+}
 ```
 
 When possible, don't define methods inside the constructor.
@@ -411,11 +411,11 @@ When possible, don't define methods inside the constructor.
 function Car() {
   this.move = function() {
     ...
-  };
+  }
 
   this.stop = function() {
     ...
-  };
+  }
 }
 
 // Good
@@ -424,11 +424,11 @@ function Car() {
 
 Car.prototype.move = function() {
   ...
-};
+}
 
 Car.prototype.stop = function() {
   ...
-};
+}
 ```
 
 Don't forget to set the correct constructor when implementing inheritance.
