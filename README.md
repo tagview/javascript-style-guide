@@ -270,7 +270,7 @@ var names = new Array;
 var names = []
 ```
 
-When you need to transform an array-like object to an array, use Array#slice.
+When you need to transform an array-like object into an array, use Array#slice.
 
 ```javascript
 function test() {
