@@ -216,6 +216,13 @@ var header = $(".header");
 var $header = $(".header");
 ```
 
+Prefix booleans with `is` or `has`.
+
+```javascript
+user.isActive;
+user.hasPosts();
+```
+
 ## Strings
 
 Use double `""` quotes.
